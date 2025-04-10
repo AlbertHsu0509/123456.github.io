@@ -3,6 +3,6 @@ layout: default
 title: Home
 ---
 
-# Welcome to Timbral Technique
+# 🎤 Timbral Technique
 
-This is a demo site built with **Jekyll** and the **Cayman theme**, hosted on **GitHub Pages**.
+Welcome! This is a Jekyll site using the **Cayman theme** deployed via **GitHub Actions**.
