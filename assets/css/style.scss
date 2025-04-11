@@ -18,7 +18,7 @@
 
 /* Table styles */
 table {
-  width: 100%;
+  width: 75%;
   border-collapse: collapse;
 }
 th, td {
@@ -39,14 +39,14 @@ audio {
   width: 50%; /* Equal width for 2 columns */
 }
 
-/* Responsive adjustments */
-@media screen and (max-width: 768px) {
-  .page, .page .inner, .container, .content, main {
-    width: 95% !important;
-    padding: 0 10px !important;
-  }
-  .model-comparisons td, .reference-files td {
-    width: 100%;
-    display: block;
-  }
-}
+// /* Responsive adjustments */
+// @media screen and (max-width: 768px) {
+//   .page, .page .inner, .container, .content, main {
+//     width: 75% !important;
+//     padding: 0 10px !important;
+//   }
+//   .model-comparisons td, .reference-files td {
+//     width: 750%;
+//     display: block;
+//   }
+// }
