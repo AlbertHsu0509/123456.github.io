@@ -18,7 +18,7 @@ table { width: 100%; border-collapse: collapse; }
 th, td { text-align: left; vertical-align: middle; padding: 8px; }
 thead { background-color: #f2f2f2; }
 audio { width: 100%; }
-.model-comparisons td { width: 20%; } /* Equal width for 6 columns */
+.model-comparisons td { width: 30%; } /* Equal width for 6 columns */
 .reference-files td { width: 100%; } /* Single column takes full width */
 </style>
 
@@ -27,7 +27,7 @@ audio { width: 100%; }
 <table class="reference-files">
   <thead>
     <tr>
-      <th>Reference Audio</th>
+      <th>Reference</th>
     </tr>
   </thead>
   <tbody>
