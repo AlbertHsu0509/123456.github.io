@@ -265,12 +265,12 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/modal/2/SOURCEjvs047_parallel100_VOICEACTRESS100_001.wav"></audio></td>
-      <td><audio controls src="audio/conversion/modal/2/GT_jvs047_modal10_VOICEACTRESS100_001.wav"></audio></td>
-      <td><audio controls src="audio/conversion/modal/2/COSYjvs047_parallel100_VOICEACTRESS100_001_to_modal_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/modal/2/FREEjvs047_parallel100_VOICEACTRESS100_001_to_modal_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/modal/2/ORI_jvs047_parallel100_VOICEACTRESS100_001_to_modal_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/modal/2/FABYOL_jvs047_parallel100_VOICEACTRESS100_001_to_modal_ref1_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/spksim/1/jvs034_parallel100_VOICEACTRESS100_002.wav"></audio></td>
+      <td><audio controls src=audio/conversion/spksim/1/GT_jvs034_parallel100_VOICEACTRESS100_002.wav"></audio></td>
+      <td><audio controls src="audio/conversion/spksim/1/COSY_jvs034_parallel100_VOICEACTRESS100_002_to_modal_jvs019_parallel100_VOICEACTRESS100_099.wav"></audio></td>
+      <td><audio controls src="audio/conversion/spksim/1/FREE_jvs034_parallel100_VOICEACTRESS100_002_to_modal_jvs019_parallel100_VOICEACTRESS100_099.wav"></audio></td>
+      <td><audio controls src="audio/conversion/spksim/1/ORI_jvs034_parallel100_VOICEACTRESS100_002_to_modal_jvs019_parallel100_VOICEACTRESS100_099.wav"></audio></td>
+      <td><audio controls src="audio/conversion/spksim/1/PRO_jvs034_parallel100_VOICEACTRESS100_002_to_modal_ref2_jvs019_parallel100_VOICEACTRESS100_099.wav"></audio></td>
     </tr>
   </tbody>
 </table>
@@ -283,7 +283,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/modal/1/ref_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/spksim/2/jvs001_parallel100_VOICEACTRESS100_091.wav"></audio></td>
     </tr>
   </tbody>
 </table>
@@ -302,12 +302,12 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/modal/2/SOURCEjvs047_parallel100_VOICEACTRESS100_001.wav"></audio></td>
-      <td><audio controls src="audio/conversion/modal/2/GT_jvs047_modal10_VOICEACTRESS100_001.wav"></audio></td>
-      <td><audio controls src="audio/conversion/modal/2/COSYjvs047_parallel100_VOICEACTRESS100_001_to_modal_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/modal/2/FREEjvs047_parallel100_VOICEACTRESS100_001_to_modal_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/modal/2/ORI_jvs047_parallel100_VOICEACTRESS100_001_to_modal_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/modal/2/FABYOL_jvs047_parallel100_VOICEACTRESS100_001_to_modal_ref1_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/spksim/2/jvs066_parallel100_VOICEACTRESS100_004.wav"></audio></td>
+      <td><audio controls src="audio/conversion/spksim/2/GT_jvs066_parallel100_VOICEACTRESS100_004.wav"></audio></td>
+      <td><audio controls src="audio/conversion/spksim/2/COSY_jvs066_parallel100_VOICEACTRESS100_004_to_modal_jvs001_parallel100_VOICEACTRESS100_091.wav"></audio></td>
+      <td><audio controls src="audio/conversion/spksim/2/FREE_jvs066_parallel100_VOICEACTRESS100_004_to_modal_jvs001_parallel100_VOICEACTRESS100_091.wav"></audio></td>
+      <td><audio controls src="audio/conversion/spksim/2/ORI_jvs066_parallel100_VOICEACTRESS100_004_to_modal_jvs001_parallel100_VOICEACTRESS100_091.wav"></audio></td>
+      <td><audio controls src="audio/conversion/spksim/2/PRO_jvs066_parallel100_VOICEACTRESS100_004_to_modal_ref1_jvs001_parallel100_VOICEACTRESS100_091.wav"></audio></td>
     </tr>
   </tbody>
 </table>
