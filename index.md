@@ -172,10 +172,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/scream/1/ref_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
-    </tr>
-    <tr>
-      <td><audio controls src="audio/conversion/scream/2/ref_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/1/ref_GeneraStudios_MetalScreams_110_AllTheThings_High.wav"></audio></td>
     </tr>
   </tbody>
 </table>
