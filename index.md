@@ -6,14 +6,14 @@ title: "Conditional Vocal Timbral Technique Conversion via Embedding-Guided Attr
 <!-- Link to custom CSS to hide GitHub button and footer -->
 <link rel="stylesheet" href="/assets/css/style.css">
 
-## Abstract
+<h1>Abstract</h1>
 
 Vocal timbral techniques—such as whisper, falsetto, and vocal fry/false cord scream—uniquely shape the spectral properties of the human voice, adding expressive nuance. Converting one timbral technique to another while preserving the original speaker’s identity remains a complex challenge. Traditional voice conversion methods excel at altering speaker identity or broad timbral qualities but often fail to accurately transform specialized timbral techniques without compromising speaker-specific traits. Similarly, existing style-transfer models, designed to capture emotional expressiveness or broad singing styles, lack the granularity and flexibility required to handle diverse, technique-specific timbral variations such as whisper or scream. To address this, we propose FABYOL, a novel embedding-guided framework for timbral technique conversion built upon a pre-trained, frozen FACodec architecture. FABYOL leverages supervised contrastive learning to generate robust embeddings that precisely encode individual timbral techniques, capturing their distinct spectral and stylistic features. Beyond timbre modulation, we emphasize prosody modulation as critical for achieving authentic conversions, employing adaptive layer normalization to modulate these attributes effectively during the transfer process. This approach enables precise, speaker-consistent transformations with minimal architectural changes. Through experimental evaluation—using tailored objective metrics and a user study—FABYOL demonstrates superior performance compared to state-of-the-art voice conversion models, advancing the fidelity and flexibility of timbral technique manipulation.
 <figure>
   <img src="figure/FABYOL_model (1).png" alt="FABYOL Model Architecture">
 </figure>
 
-## Timbral Technique Conversion
+<h1>Timbral Technique Conversion</h1>
 
 To evaluate the performance of FABYOL and baseline models in the timbral technique conversion task, we randomly select samples from the test set featuring unseen singers as both reference and source. The source audio, in a modal voice, is conditioned on the reference audio to convert it to the target timbral technique.
 
@@ -324,7 +324,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
 
 <hr>
 
-## Ablation Study
+<h1>Ablation Study</h1>
 
 <h2>Dual Modulation</h2>
 
