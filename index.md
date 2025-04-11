@@ -30,6 +30,7 @@ Vocal timbral techniques—such as whisper, falsetto, and vocal fry/false cord s
   </tbody>
 </table>
 <h2></h2>
+<table class="model-comparisons">
   <thead>
     <tr>
       <th>Source</th>
