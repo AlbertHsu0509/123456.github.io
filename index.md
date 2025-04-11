@@ -340,10 +340,10 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   <tbody>
     <tr>
       <td>Ground Truth</td>
-      <td><audio controls src="audio/conversion/ablation/dual_modulation/falsetto/FABYOL_dual_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/ablation/dual_modulation/whisper/FABYOL_dual_jvs021_parallel100_VOICEACTRESS100_005_to_whisper_ref1_jvs001_whisper10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/ablation/dual_modulation/scream/FABYOL_dual_jvs021_parallel100_VOICEACTRESS100_005_to_scream_ref1_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/ablation/dual_modulation/modal/FABYOL_dual_jvs021_parallel100_VOICEACTRESS100_005_to_modal_ref1_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/GT_jvs021_falset10_VOICEACTRESS100_005.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/1/GT_jvs025_whisper10_VOICEACTRESS100_002.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/1/GT_Jun_scream_01.wav"></audio></td>
+      <td><audio controls src="audio/conversion/spksim/1/GT_jvs034_parallel100_VOICEACTRESS100_002.wav"></audio></td>
     </tr>
     <tr>
       <td>w/o Prosody Modulation</td>
@@ -354,10 +354,10 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
     </tr>
     <tr>
       <td>Dula Modulation</td>
-      <td><audio controls src="audio/conversion/ablation/byol_tt/falsetto/FABYOL_real_data_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/ablation/byol_tt/whisper/FABYOL_real_data_jvs021_parallel100_VOICEACTRESS100_005_to_whisper_ref1_jvs001_whisper10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/ablation/byol_tt/scream/FABYOL_real_data_jvs021_parallel100_VOICEACTRESS100_005_to_scream_ref1_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/ablation/byol_tt/modal/FABYOL_real_data_jvs021_parallel100_VOICEACTRESS100_005_to_modal_ref1_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/PRO_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/1/PRO_jvs025_parallel100_VOICEACTRESS100_002_to_whisper_ref2_jvs019_whisper10_TRAVEL1000_0391.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/1/PRO_Jun_clean_01_to_scream_ref1_GeneraStudios_MetalScreams_110_AllTheThings_High.wav"></audio></td>
+      <td><audio controls src="audio/conversion/spksim/1/PRO_jvs034_parallel100_VOICEACTRESS100_002_to_modal_ref2_jvs019_parallel100_VOICEACTRESS100_099.wav"></audio></td>
     </tr>
   </tbody>
 </table>
@@ -377,10 +377,10 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   <tbody>
     <tr>
       <td>Ground Truth</td>
-      <td><audio controls src="audio/conversion/ablation/dual_modulation/falsetto/FABYOL_dual_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/ablation/dual_modulation/whisper/FABYOL_dual_jvs021_parallel100_VOICEACTRESS100_005_to_whisper_ref1_jvs001_whisper10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/ablation/dual_modulation/scream/FABYOL_dual_jvs021_parallel100_VOICEACTRESS100_005_to_scream_ref1_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/ablation/dual_modulation/modal/FABYOL_dual_jvs021_parallel100_VOICEACTRESS100_005_to_modal_ref1_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/GT_jvs021_falset10_VOICEACTRESS100_005.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/1/GT_jvs025_whisper10_VOICEACTRESS100_002.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/1/GT_Jun_scream_01.wav"></audio></td>
+      <td><audio controls src="audio/conversion/spksim/1/GT_jvs034_parallel100_VOICEACTRESS100_002.wav"></audio></td>
     </tr>
     <tr>
       <td>DSP Augmentations</td>
@@ -391,10 +391,10 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
     </tr>
     <tr>
       <td>Real Data Selection</td>
-      <td><audio controls src="audio/conversion/ablation/byol_tt/falsetto/FABYOL_real_data_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/ablation/byol_tt/whisper/FABYOL_real_data_jvs021_parallel100_VOICEACTRESS100_005_to_whisper_ref1_jvs001_whisper10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/ablation/byol_tt/scream/FABYOL_real_data_jvs021_parallel100_VOICEACTRESS100_005_to_scream_ref1_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/ablation/byol_tt/modal/FABYOL_real_data_jvs021_parallel100_VOICEACTRESS100_005_to_modal_ref1_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/PRO_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/1/PRO_jvs025_parallel100_VOICEACTRESS100_002_to_whisper_ref2_jvs019_whisper10_TRAVEL1000_0391.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/1/PRO_Jun_clean_01_to_scream_ref1_GeneraStudios_MetalScreams_110_AllTheThings_High.wav"></audio></td>
+      <td><audio controls src="audio/conversion/spksim/1/PRO_jvs034_parallel100_VOICEACTRESS100_002_to_modal_ref2_jvs019_parallel100_VOICEACTRESS100_099.wav"></audio></td>
     </tr>
   </tbody>
 </table>
