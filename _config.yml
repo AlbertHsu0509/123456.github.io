@@ -1,3 +1,7 @@
-title: My Demo Page
-description: A simple demo using the Cayman theme
+title: FABYOL Demo
+description: Conditional Vocal Timbral Technique Conversion
 theme: jekyll-theme-cayman
+
+sass:
+  load_paths:
+    - assets/css
