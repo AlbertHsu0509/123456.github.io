@@ -29,8 +29,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
     </tr>
   </tbody>
 </table>
-
-<h3>Model Comparisons</h3>
+<h3></h3>
 <table class="model-comparisons">
   <thead>
     <tr>
@@ -66,7 +65,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
     </tr>
   </tbody>
 </table>
-<h3>Model Comparisons</h3>
+<h3></h3>
 <table class="model-comparisons">
   <thead>
     <tr>
@@ -153,8 +152,8 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/whisper/2/SOURCEjvs047_parallel100_VOICEACTRESS100_001.wav"></audio></td>
-      <td><audio controls src="audio/conversion/whisper/2/GT_jvs047_whisper10_VOICEACTRESS100_001.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/2/jvs021_parallel100_VOICEACTRESS100_003.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/2/GT_jvs021_whisper10_VOICEACTRESS100_003.wav"></audio></td>
       <td><audio controls src="audio/conversion/whisper/2/COSY_jvs021_parallel100_VOICEACTRESS100_003_to_whisper_jvs001_whisper10_BASIC5000_1140.wav"></audio></td>
       <td><audio controls src="audio/conversion/whisper/2/FREE_jvs021_parallel100_VOICEACTRESS100_003_to_whisper_jvs001_whisper10_BASIC5000_1140.wav"></audio></td>
       <td><audio controls src="audio/conversion/whisper/2/ORI_jvs021_parallel100_VOICEACTRESS100_003_to_whisper_jvs001_whisper10_BASIC5000_1140.wav"></audio></td>
