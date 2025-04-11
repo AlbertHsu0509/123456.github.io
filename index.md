@@ -23,15 +23,6 @@ thead { background-color: #f2f2f2; }
 audio { width: 100%; }
 </style>
 
-## Demos
-
-<style>
-table { width: 100%; border-collapse: collapse; }
-th, td { text-align: left; vertical-align: middle; padding: 8px; }
-thead { background-color: #f2f2f2; }
-audio { width: 100%; }
-</style>
-
 <h2>Modal to Falsetto</h2>
 <h3>Reference Files</h3>
 <table>
