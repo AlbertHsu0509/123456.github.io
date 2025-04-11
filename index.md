@@ -245,7 +245,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
 </table>
 
 <h2>🎵 Modal Conversion</h2>
-In the modal-to-modal conversion, we can better assess different models' ability to preserve the source speaker's identity.
+In the modal-to-modal conversion, we can better assess the model's ability to preserve the source speaker's identity.
 <h3></h3>
 <table class="reference-files">
   <thead>
