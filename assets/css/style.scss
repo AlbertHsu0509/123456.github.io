@@ -18,7 +18,7 @@
 
 /* Table styles */
 table {
-  width: 150%;
+  width: 100%;
   border-collapse: collapse;
 }
 th, td {
@@ -33,10 +33,10 @@ audio {
   width: 100%;
 }
 .model-comparisons td {
-  width: 25%; /* Equal width for 5 columns */
+  width: 20%; /* Equal width for 5 columns */
 }
 .reference-files td {
-  width: 60%; /* Equal width for 2 columns */
+  width: 50%; /* Equal width for 2 columns */
 }
 
 // /* Responsive adjustments */
