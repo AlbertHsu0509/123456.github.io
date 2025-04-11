@@ -16,7 +16,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
 
 <h2>🎵 Falsetto Conversion</h2>
 
-<h3>Reference</h3>
+<h3></h3>
 <table class="reference-files">
   <thead>
     <tr>
@@ -52,7 +52,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
     </tr>
   </tbody>
 </table>
-<h3>Reference</h3>
+<h3></h3>
 <table class="reference-files">
   <thead>
     <tr>
@@ -89,8 +89,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </tbody>
 </table>
 <h2>🎵 Whisper Conversion</h2>
-
-<h3>Reference Files</h3>
+<h3></h3>
 <table class="reference-files">
   <thead>
     <tr>
@@ -127,6 +126,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
     </tr>
   </tbody>
 </table>
+<h3></h3>
 <table class="reference-files">
   <thead>
     <tr>
@@ -163,8 +163,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </tbody>
 </table>
 <h2>🎵 Scream Conversion</h2>
-
-<h3>Reference Files</h3>
+<h3></h3>
 <table class="reference-files">
   <thead>
     <tr>
@@ -180,8 +179,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
     </tr>
   </tbody>
 </table>
-
-<h3>Model Comparisons</h3>
+<h3></h3>
 <table class="model-comparisons">
   <thead>
     <tr>
@@ -202,6 +200,37 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
       <td><audio controls src="audio/conversion/scream/1/ORI_jvs021_parallel100_VOICEACTRESS100_005_to_scream_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
       <td><audio controls src="audio/conversion/scream/1/FABYOL_jvs021_parallel100_VOICEACTRESS100_005_to_scream_ref1_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
     </tr>
+  </tbody>
+</table>
+<h3></h3>
+<table class="reference-files">
+  <thead>
+    <tr>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/scream/1/ref_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
+    </tr>
+    <tr>
+      <td><audio controls src="audio/conversion/scream/2/ref_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+<h3></h3>
+<table class="model-comparisons">
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Ground Truth</th>
+      <th>CosyVoice</th>
+      <th>FreeVC</th>
+      <th>FACodec</th>
+      <th>FABYOL (Proposed)</th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td><audio controls src="audio/conversion/scream/2/SOURCEjvs047_parallel100_VOICEACTRESS100_001.wav"></audio></td>
       <td><audio controls src="audio/conversion/scream/2/GT_jvs047_scream10_VOICEACTRESS100_001.wav"></audio></td>
@@ -212,7 +241,6 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
     </tr>
   </tbody>
 </table>
-
 <h2>🎵 Modal Conversion</h2>
 
 <h3>Reference Files</h3>
