@@ -322,3 +322,67 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </tbody>
 </table>
 
+<hr>
+
+## Ablation Study
+
+<h2>Dual Modulation</h2>
+
+<table class="model-comparisons">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Falsetto</th>
+      <th>Whisper</th>
+      <th>Scream</th>
+      <th>Modal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>w/o Prosody</td>
+      <td><audio controls src="audio/conversion/ablation/dual_modulation/falsetto/FABYOL_no_prosody_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/ablation/dual_modulation/whisper/FABYOL_no_prosody_jvs021_parallel100_VOICEACTRESS100_005_to_whisper_ref1_jvs001_whisper10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/ablation/dual_modulation/scream/FABYOL_no_prosody_jvs021_parallel100_VOICEACTRESS100_005_to_scream_ref1_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/ablation/dual_modulation/modal/FABYOL_no_prosody_jvs021_parallel100_VOICEACTRESS100_005_to_modal_ref1_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>Dual</td>
+      <td><audio controls src="audio/conversion/ablation/dual_modulation/falsetto/FABYOL_dual_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/ablation/dual_modulation/whisper/FABYOL_dual_jvs021_parallel100_VOICEACTRESS100_005_to_whisper_ref1_jvs001_whisper10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/ablation/dual_modulation/scream/FABYOL_dual_jvs021_parallel100_VOICEACTRESS100_005_to_scream_ref1_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/ablation/dual_modulation/modal/FABYOL_dual_jvs021_parallel100_VOICEACTRESS100_005_to_modal_ref1_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>BYOL-TT Augmentations</h2>
+
+<table class="model-comparisons">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Falsetto</th>
+      <th>Whisper</th>
+      <th>Scream</th>
+      <th>Modal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>DSP Augmentations</td>
+      <td><audio controls src="audio/conversion/ablation/byol_tt/falsetto/FABYOL_dsp_aug_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/ablation/byol_tt/whisper/FABYOL_dsp_aug_jvs021_parallel100_VOICEACTRESS100_005_to_whisper_ref1_jvs001_whisper10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/ablation/byol_tt/scream/FABYOL_dsp_aug_jvs021_parallel100_VOICEACTRESS100_005_to_scream_ref1_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/ablation/byol_tt/modal/FABYOL_dsp_aug_jvs021_parallel100_VOICEACTRESS100_005_to_modal_ref1_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>Real Data Selection</td>
+      <td><audio controls src="audio/conversion/ablation/byol_tt/falsetto/FABYOL_real_data_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/ablation/byol_tt/whisper/FABYOL_real_data_jvs021_parallel100_VOICEACTRESS100_005_to_whisper_ref1_jvs001_whisper10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/ablation/byol_tt/scream/FABYOL_real_data_jvs021_parallel100_VOICEACTRESS100_005_to_scream_ref1_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/ablation/byol_tt/modal/FABYOL_real_data_jvs021_parallel100_VOICEACTRESS100_005_to_modal_ref1_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+
