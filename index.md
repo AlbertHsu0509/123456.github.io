@@ -98,7 +98,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/whisper/2/ref_jvs019_whisper10_TRAVEL1000_0391.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/1/ref_jvs019_whisper10_TRAVEL1000_0391.wav"></audio></td>
     </tr>
   </tbody>
 </table>
