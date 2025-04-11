@@ -6,8 +6,6 @@ title: "Conditional Vocal Timbral Technique Conversion via Embedding-Guided Attr
 <!-- Link to custom CSS to hide GitHub button and footer -->
 <link rel="stylesheet" href="/assets/css/style.css">
 
-# FABYOL: Conditional Vocal Timbral Technique Conversion
-
 ## Table of Contents
 1. [Abstract](#abstract)  
 2. [Timbral Technique Conversion](#timbral-technique-conversion)  
