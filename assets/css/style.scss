@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";  /* Loads Cayman base styles */
+
+/* Your custom overrides here */
+.btn-github, footer .footer {
+  display: none !important;
+}
