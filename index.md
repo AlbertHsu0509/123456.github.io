@@ -13,33 +13,42 @@ Vocal timbral techniques—such as whisper, falsetto, and vocal fry/false cord s
 ---
 
 ## Timbral Technique Conversion
+
 <style>
 table { width: 100%; border-collapse: collapse; }
 th, td { text-align: left; vertical-align: middle; padding: 8px; }
 thead { background-color: #f2f2f2; }
 audio { width: 100%; }
-.model-comparisons td { width: 30%; } /* Equal width for 6 columns */
-.reference-files td { width: 100%; } /* Single column takes full width */
+.model-comparisons td { width: 20%; } /* Equal width for 5 columns */
+.reference-files td { width: 50%; } /* Equal width for 2 columns */
 </style>
 
 <h2>🎵 Falsetto Conversion</h2>
+
 <h3>Reference Files</h3>
 <table class="reference-files">
   <thead>
     <tr>
+      <th>Source</th>
       <th>Reference</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td><audio controls src="audio/conversion/falsetto/1/source_jvs021_parallel100_VOICEACTRESS100_005.wav"></audio></td>
       <td><audio controls src="audio/conversion/falsetto/1/ref_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+    </tr>
+    <tr>
+      <td><audio controls src="audio/conversion/falsetto/2/SOURCEjvs047_parallel100_VOICEACTRESS100_001.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/ref_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
     </tr>
   </tbody>
 </table>
+
+<h3>Model Comparisons</h3>
 <table class="model-comparisons">
   <thead>
     <tr>
-      <th>Source</th>
       <th>Ground Truth</th>
       <th>CosyVoice</th>
       <th>FreeVC</th>
@@ -49,7 +58,6 @@ audio { width: 100%; }
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/falsetto/1/source_jvs021_parallel100_VOICEACTRESS100_005.wav"></audio></td>
       <td><audio controls src="audio/conversion/falsetto/1/GT_jvs021_falset10_VOICEACTRESS100_005.wav"></audio></td>
       <td><audio controls src="audio/conversion/falsetto/1/COSYjvs021_parallel100_VOICEACTRESS100_005_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
       <td><audio controls src="audio/conversion/falsetto/1/Free_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
@@ -57,7 +65,6 @@ audio { width: 100%; }
       <td><audio controls src="audio/conversion/falsetto/1/PRO_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
     </tr>
     <tr>
-      <td><audio controls src="audio/conversion/falsetto/2/SOUCREjvs047_parallel100_VOICEACTRESS100_001.wav"></audio></td>
       <td><audio controls src="audio/conversion/falsetto/2/GT_jvs047_falset10_VOICEACTRESS100_001.wav"></audio></td>
       <td><audio controls src="audio/conversion/falsetto/2/COSYjvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
       <td><audio controls src="audio/conversion/falsetto/2/FREEjvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
@@ -66,5 +73,3 @@ audio { width: 100%; }
     </tr>
   </tbody>
 </table>
-
-
