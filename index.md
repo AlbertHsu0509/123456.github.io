@@ -1,6 +1,6 @@
 ---
 layout: default
-title: FABYOL: Demo
+title: "FABYOL Demo"
 ---
 
 <!-- Link to custom CSS to hide GitHub button and footer -->
@@ -23,7 +23,7 @@ title: FABYOL: Demo
 
 ## Abstract
 
-<insert your abstract here>
+*(Insert your abstract here)*
 
 ---
 
@@ -31,19 +31,19 @@ title: FABYOL: Demo
 
 ### Model to Falsetto
 
-(Demo or description here)
+*(Demo or description here)*
 
 ### Model to Whisper
 
-(Demo or description here)
+*(Demo or description here)*
 
 ### Model to Scream
 
-(Demo or description here)
+*(Demo or description here)*
 
 ### Model to Modal
 
-(Demo or description here)
+*(Demo or description here)*
 
 ---
 
@@ -51,8 +51,8 @@ title: FABYOL: Demo
 
 ### Without Prosody
 
-(Demo or description here)
+*(Demo or description here)*
 
 ### Augmentations
 
-(Demo or description here)
+*(Demo or description here)*
