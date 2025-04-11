@@ -237,7 +237,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
 </table>
 <h2>🎵 Modal Conversion</h2>
 
-<h3</h3>
+<h3></h3>
 <table class="reference-files">
   <thead>
     <tr>
@@ -251,7 +251,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </tbody>
 </table>
 
-<h3>Model Comparisons</h3>
+<h3></h3>
 <table class="model-comparisons">
   <thead>
     <tr>
@@ -266,7 +266,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   <tbody>
     <tr>
       <td><audio controls src="audio/conversion/spksim/1/jvs034_parallel100_VOICEACTRESS100_002.wav"></audio></td>
-      <td><audio controls src=audio/conversion/spksim/1/GT_jvs034_parallel100_VOICEACTRESS100_002.wav"></audio></td>
+      <td><audio controls src="audio/conversion/spksim/1/GT_jvs034_parallel100_VOICEACTRESS100_002.wav"></audio></td>
       <td><audio controls src="audio/conversion/spksim/1/COSY_jvs034_parallel100_VOICEACTRESS100_002_to_modal_jvs019_parallel100_VOICEACTRESS100_099.wav"></audio></td>
       <td><audio controls src="audio/conversion/spksim/1/FREE_jvs034_parallel100_VOICEACTRESS100_002_to_modal_jvs019_parallel100_VOICEACTRESS100_099.wav"></audio></td>
       <td><audio controls src="audio/conversion/spksim/1/ORI_jvs034_parallel100_VOICEACTRESS100_002_to_modal_jvs019_parallel100_VOICEACTRESS100_099.wav"></audio></td>
@@ -288,7 +288,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </tbody>
 </table>
 
-<h3>s</h3>
+<h3></h3>
 <table class="model-comparisons">
   <thead>
     <tr>
