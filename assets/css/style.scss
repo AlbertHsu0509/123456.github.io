@@ -41,18 +41,6 @@ audio {
   min-width: 288px; /* Same cell width as Model Comparisons */
 }
 
-/* Responsive adjustments */
-@media screen and (max-width: 768px) {
-  .page, .page .inner, .container, .content, main {
-    width: 95% !important;
-    padding: 0 5px !important;
-  }
-  .model-comparisons td, .reference-files td {
-    width: 100%;
-    min-width: 0; /* Allow full width on mobile */
-    display: block;
-  }
-}
 
 // /* Responsive adjustments */
 // @media screen and (max-width: 768px) {
