@@ -14,14 +14,7 @@ Vocal timbral techniques—such as whisper, falsetto, and vocal fry/false cord s
 
 ## Timbral Technique Conversion
 
-<style>
-table { width: 100%; border-collapse: collapse; }
-th, td { text-align: left; vertical-align: middle; padding: 8px; }
-thead { background-color: #f2f2f2; }
-audio { width: 100%; }
-.model-comparisons td { width: 20%; } /* Equal width for 5 columns */
-.reference-files td { width: 50%; } /* Equal width for 2 columns */
-</style>
+
 
 <h2>🎵 Falsetto Conversion</h2>
 <table class="reference-files">
