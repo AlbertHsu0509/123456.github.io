@@ -16,7 +16,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
 
 <h2>🎵 Falsetto Conversion</h2>
 
-<h3>Reference Files</h3>
+<h3>Reference</h3>
 <table class="reference-files">
   <thead>
     <tr>
@@ -49,19 +49,46 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
       <td><audio controls src="audio/conversion/falsetto/1/COSYjvs021_parallel100_VOICEACTRESS100_005_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
       <td><audio controls src="audio/conversion/falsetto/1/Free_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
       <td><audio controls src="audio/conversion/falsetto/1/ORI_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/falsetto/1/FABYOL_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
-    </tr>
-    <tr>
-      <td><audio controls src="audio/conversion/falsetto/2/SOURCEjvs047_parallel100_VOICEACTRESS100_001.wav"></audio></td>
-      <td><audio controls src="audio/conversion/falsetto/2/GT_jvs047_falset10_VOICEACTRESS100_001.wav"></audio></td>
-      <td><audio controls src="audio/conversion/falsetto/2/COSYjvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/falsetto/2/FREEjvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/falsetto/2/ORI_jvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/falsetto/2/FABYOL_jvs047_parallel100_VOICEACTRESS100_001_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/PRO_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
     </tr>
   </tbody>
 </table>
-
+<h3>Reference</h3>
+<table class="reference-files">
+  <thead>
+    <tr>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/falsetto/2/jvs019_falset10_VOICEACTRESS100_003.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+<h3>Model Comparisons</h3>
+<table class="model-comparisons">
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Ground Truth</th>
+      <th>CosyVoice</th>
+      <th>FreeVC</th>
+      <th>FACodec</th>
+      <th>FABYOL (Proposed)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/falsetto/2/SOUCREjvs047_parallel100_VOICEACTRESS100_001.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/GT_jvs047_falset10_VOICEACTRESS100_001.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/COSY_jvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs019_falset10_VOICEACTRESS100_003.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/FREE_jvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs019_falset10_VOICEACTRESS100_003.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/ORI_jvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs019_falset10_VOICEACTRESS100_003.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/FABYOL_jvs047_parallel100_VOICEACTRESS100_001_to_falsetto_ref2_jvs019_falset10_VOICEACTRESS100_003.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
 <h2>🎵 Whisper Conversion</h2>
 
 <h3>Reference Files</h3>
@@ -73,10 +100,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/whisper/1/ref_jvs001_whisper10_BASIC5000_1635.wav"></audio></td>
-    </tr>
-    <tr>
-      <td><audio controls src="audio/conversion/whisper/2/ref_jvs001_whisper10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/2/ref_jvs019_whisper10_TRAVEL1000_0391.wav"></audio></td>
     </tr>
   </tbody>
 </table>
@@ -95,24 +119,49 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/whisper/1/source_jvs021_parallel100_VOICEACTRESS100_005.wav"></audio></td>
-      <td><audio controls src="audio/conversion/whisper/1/GT_jvs021_whisper10_VOICEACTRESS100_005.wav"></audio></td>
-      <td><audio controls src="audio/conversion/whisper/1/COSYjvs021_parallel100_VOICEACTRESS100_005_to_whisper_jvs001_whisper10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/whisper/1/Free_jvs021_parallel100_VOICEACTRESS100_005_to_whisper_jvs001_whisper10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/1/jvs025_parallel100_VOICEACTRESS100_002.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/1/GT_jvs025_whisper10_VOICEACTRESS100_002.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/1/COSY_jvs025_parallel100_VOICEACTRESS100_002_to_whisper_jvs019_whisper10_TRAVEL1000_0391.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/1/FREE_jvs025_parallel100_VOICEACTRESS100_001_to_whisper_jvs019_whisper10_TRAVEL1000_0391.wavv"></audio></td>
       <td><audio controls src="audio/conversion/whisper/1/ORI_jvs021_parallel100_VOICEACTRESS100_005_to_whisper_jvs001_whisper10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/whisper/1/FABYOL_jvs021_parallel100_VOICEACTRESS100_005_to_whisper_ref1_jvs001_whisper10_BASIC5000_1635.wav"></audio></td>
-    </tr>
-    <tr>
-      <td><audio controls src="audio/conversion/whisper/2/SOURCEjvs047_parallel100_VOICEACTRESS100_001.wav"></audio></td>
-      <td><audio controls src="audio/conversion/whisper/2/GT_jvs047_whisper10_VOICEACTRESS100_001.wav"></audio></td>
-      <td><audio controls src="audio/conversion/whisper/2/COSYjvs047_parallel100_VOICEACTRESS100_001_to_whisper_jvs001_whisper10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/whisper/2/FREEjvs047_parallel100_VOICEACTRESS100_001_to_whisper_jvs001_whisper10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/whisper/2/ORI_jvs047_parallel100_VOICEACTRESS100_001_to_whisper_jvs001_whisper10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/whisper/2/FABYOL_jvs047_parallel100_VOICEACTRESS100_001_to_whisper_ref1_jvs001_whisper10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/1/PRO_jvs025_parallel100_VOICEACTRESS100_002_to_whisper_ref2_jvs019_whisper10_TRAVEL1000_0391.wav"></audio></td>
     </tr>
   </tbody>
 </table>
-
+<table class="reference-files">
+  <thead>
+    <tr>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/whisper/2/ref_jvs001_whisper10_BASIC5000_1140.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+<table class="model-comparisons">
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Ground Truth</th>
+      <th>CosyVoice</th>
+      <th>FreeVC</th>
+      <th>FACodec</th>
+      <th>FABYOL (Proposed)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/whisper/2/SOURCEjvs047_parallel100_VOICEACTRESS100_001.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/2/GT_jvs047_whisper10_VOICEACTRESS100_001.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/2/COSY_jvs021_parallel100_VOICEACTRESS100_003_to_whisper_jvs001_whisper10_BASIC5000_1140.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/2/FREE_jvs021_parallel100_VOICEACTRESS100_003_to_whisper_jvs001_whisper10_BASIC5000_1140.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/2/ORI_jvs021_parallel100_VOICEACTRESS100_003_to_whisper_jvs001_whisper10_BASIC5000_1140.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/2/PRO_jvs021_parallel100_VOICEACTRESS100_003_to_whisper_ref1_jvs001_whisper10_BASIC5000_1140.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
 <h2>🎵 Scream Conversion</h2>
 
 <h3>Reference Files</h3>
