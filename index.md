@@ -104,7 +104,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </tbody>
 </table>
 
-<h3>Model Comparisons</h3>
+<h3></h3>
 <table class="model-comparisons">
   <thead>
     <tr>
@@ -139,6 +139,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
     </tr>
   </tbody>
 </table>
+<h3></h3>
 <table class="model-comparisons">
   <thead>
     <tr>
