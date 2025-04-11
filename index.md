@@ -60,3 +60,135 @@ Vocal timbral techniques—such as whisper, falsetto, and vocal fry/false cord s
     </tr>
   </tbody>
 </table>
+<h2>🎵 Whisper Conversion</h2>
+<table class="reference-files">
+  <thead>
+    <tr>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/falsetto/1/ref_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+<h2></h2>
+<table class="model-comparisons">
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Ground Truth</th>
+      <th>CosyVoice</th>
+      <th>FreeVC</th>
+      <th>FACodec</th>
+      <th>FABYOL (Proposed)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/falsetto/1/source_jvs021_parallel100_VOICEACTRESS100_005.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/GT_jvs021_falset10_VOICEACTRESS100_005.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/COSYjvs021_parallel100_VOICEACTRESS100_005_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/Free_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/ORI_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/PRO_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+    </tr>
+    <tr>
+      <td><audio controls src="audio/conversion/falsetto/2/SOUCREjvs047_parallel100_VOICEACTRESS100_001.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/GT_jvs047_falset10_VOICEACTRESS100_001.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/COSYjvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/FREEjvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/ORI_jvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/FABYOL_jvs047_parallel100_VOICEACTRESS100_001_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+<h2>🎵 Scream Conversion</h2>
+<table class="reference-files">
+  <thead>
+    <tr>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/falsetto/1/ref_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+<h2></h2>
+<table class="model-comparisons">
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Ground Truth</th>
+      <th>CosyVoice</th>
+      <th>FreeVC</th>
+      <th>FACodec</th>
+      <th>FABYOL (Proposed)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/falsetto/1/source_jvs021_parallel100_VOICEACTRESS100_005.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/GT_jvs021_falset10_VOICEACTRESS100_005.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/COSYjvs021_parallel100_VOICEACTRESS100_005_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/Free_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/ORI_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/PRO_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+    </tr>
+    <tr>
+      <td><audio controls src="audio/conversion/falsetto/2/SOUCREjvs047_parallel100_VOICEACTRESS100_001.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/GT_jvs047_falset10_VOICEACTRESS100_001.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/COSYjvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/FREEjvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/ORI_jvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/FABYOL_jvs047_parallel100_VOICEACTRESS100_001_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+<h2>🎵 Modal Conversion</h2>
+<table class="reference-files">
+  <thead>
+    <tr>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/falsetto/1/ref_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+<h2></h2>
+<table class="model-comparisons">
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Ground Truth</th>
+      <th>CosyVoice</th>
+      <th>FreeVC</th>
+      <th>FACodec</th>
+      <th>FABYOL (Proposed)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/falsetto/1/source_jvs021_parallel100_VOICEACTRESS100_005.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/GT_jvs021_falset10_VOICEACTRESS100_005.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/COSYjvs021_parallel100_VOICEACTRESS100_005_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/Free_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/ORI_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/PRO_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+    </tr>
+    <tr>
+      <td><audio controls src="audio/conversion/falsetto/2/SOUCREjvs047_parallel100_VOICEACTRESS100_001.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/GT_jvs047_falset10_VOICEACTRESS100_001.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/COSYjvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/FREEjvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/ORI_jvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/FABYOL_jvs047_parallel100_VOICEACTRESS100_001_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
