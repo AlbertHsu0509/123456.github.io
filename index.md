@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "FABYOL Demo"
+title: "Conditional Vocal Timbral Technique Conversion via Embedding-Guided Attribute Modulation"
 ---
 
 <!-- Link to custom CSS to hide GitHub button and footer -->
