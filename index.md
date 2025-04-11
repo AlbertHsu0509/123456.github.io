@@ -226,7 +226,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/scream/2/Wayne_clean_01.wavaudio></td>
+      <td><audio controls src="audio/conversion/scream/2/Wayne_clean_01.wav"></audio></td>
       <td><audio controls src="audio/conversion/scream/2/GT_Wayne_scream_01.wav"></audio></td>
       <td><audio controls src="audio/conversion/scream/2/COSY_Wayne_clean_01_to_scream_GeneraStudios_MetalScreams_110_WeAreTheHate.wav"></audio></td>
       <td><audio controls src="audio/conversion/scream/2/FREEWayne_clean_01_to_scream_GeneraStudios_MetalScreams_110_AllTheThings_High.wav"></audio></td>
