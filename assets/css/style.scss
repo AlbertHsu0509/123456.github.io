@@ -33,11 +33,11 @@ audio {
   width: 100%;
 }
 .model-comparisons td {
-  width: 20%; /* Equal width for 5 columns */
+  width: 16.66%; /* Equal width for 5 columns */
   min-width: 220px; /* Match cell width across tables */
 }
 .reference-files td {
-  width: 50%; /* Equal width for 2 columns */
+  width: 100%; /* Equal width for 2 columns */
   min-width: 220px; /* Same cell width as Model Comparisons */
 }
 
