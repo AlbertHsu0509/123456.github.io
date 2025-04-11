@@ -1,9 +1,55 @@
 ---
 ---
 
+---
+---
+
 @import "{{ site.theme }}";  /* Loads Cayman base styles */
 
 /* Your custom overrides here */
 .btn-github, footer .footer {
   display: none !important;
+}
+
+/* Widen the content area */
+.container, .page {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  text-align: left;
+  vertical-align: middle;
+  padding: 8px;
+}
+thead {
+  background-color: #f2f2f2;
+}
+audio {
+  width: 100%;
+}
+.model-comparisons td {
+  width: 20%; /* Equal width for 5 columns */
+}
+.reference-files td {
+  width: 50%; /* Equal width for 2 columns */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .container, .page {
+    width: 95%;
+    padding: 0 10px;
+  }
+  .model-comparisons td, .reference-files td {
+    width: 100%;
+    display: block;
+  }
 }
