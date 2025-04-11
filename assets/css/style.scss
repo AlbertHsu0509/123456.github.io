@@ -35,21 +35,4 @@ thead {
 audio {
   width: 100%;
 }
-.model-comparisons td {
-  width: 20%; /* Equal width for 5 columns */
-}
-.reference-files td {
-  width: 50%; /* Equal width for 2 columns */
-}
 
-/* Responsive adjustments */
-@media screen and (max-width: 768px) {
-  .container, .page {
-    width: 95%;
-    padding: 0 10px;
-  }
-  .model-comparisons td, .reference-files td {
-    width: 100%;
-    display: block;
-  }
-}
