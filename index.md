@@ -120,8 +120,8 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
       <td><audio controls src="audio/conversion/whisper/1/jvs025_parallel100_VOICEACTRESS100_002.wav"></audio></td>
       <td><audio controls src="audio/conversion/whisper/1/GT_jvs025_whisper10_VOICEACTRESS100_002.wav"></audio></td>
       <td><audio controls src="audio/conversion/whisper/1/COSY_jvs025_parallel100_VOICEACTRESS100_002_to_whisper_jvs019_whisper10_TRAVEL1000_0391.wav"></audio></td>
-      <td><audio controls src="audio/conversion/whisper/1/FREE_jvs025_parallel100_VOICEACTRESS100_001_to_whisper_jvs019_whisper10_TRAVEL1000_0391.wavv"></audio></td>
-      <td><audio controls src="audio/conversion/whisper/1/ORI_jvs021_parallel100_VOICEACTRESS100_005_to_whisper_jvs001_whisper10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/1/FREE_jvs025_parallel100_VOICEACTRESS100_001_to_whisper_jvs019_whisper10_TRAVEL1000_0391.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/1/ORI_jvs025_parallel100_VOICEACTRESS100_002_to_whisper_jvs019_whisper10_TRAVEL1000_0391.wav"></audio></td>
       <td><audio controls src="audio/conversion/whisper/1/PRO_jvs025_parallel100_VOICEACTRESS100_002_to_whisper_ref2_jvs019_whisper10_TRAVEL1000_0391.wav"></audio></td>
     </tr>
   </tbody>
