@@ -325,7 +325,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
 <hr>
 
 <h1>Ablation Study</h1>
-
+In this ablation study, we assess the significance of dual attribute modulation (timbre and prosody) in achieving authentic conversions. Additionally, we conduct another ablation study to evaluate the targeted augmentation strategy for timbral technique representation in contrastive learning.
 <h2>Dual Modulation</h2>
 <table class="model-comparisons">
   <thead>
