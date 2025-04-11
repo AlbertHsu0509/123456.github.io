@@ -399,16 +399,22 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </tbody>
 </table>
 
-document.addEventListener('DOMContentLoaded', function() {
-  const audios = document.querySelectorAll('audio');
-  audios.forEach(audio => {
-    audio.addEventListener('play', function() {
-      audios.forEach(otherAudio => {
-        if (otherAudio !== audio && !otherAudio.paused) {
-          otherAudio.pause();
-          otherAudio.currentTime = 0; // Optional: reset to start
+<script>
+  let currentAudio = null;
+
+  function stopPreviousAudio() {
+    const audios = document.querySelectorAll('audio');
+    audios.forEach(audio => {
+      audio.addEventListener('play', function() {
+        if (currentAudio && currentAudio !== audio) {
+          currentAudio.pause();
+          currentAudio.currentTime = 0; // Optional: reset to start
         }
+        currentAudio = audio;
       });
     });
-  });
-});
+  }
+
+  // Run the function after the DOM is fully loaded
+  window.onload = stopPreviousAudio;
+</script>
