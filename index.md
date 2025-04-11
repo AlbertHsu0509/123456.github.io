@@ -25,21 +25,33 @@ audio { width: 100%; }
 
 <h2>🎵 Model to Falsetto</h2>
 <table>
-<thead><tr><th>Model</th><th>falsetto/1</th><th>falsetto/2</th></tr></thead><tbody>
-<tr><td><strong>Ground Truth</strong></td>
-<td><audio controls src="audio/conversion/falsetto/1/GT_jvs021_falset10_VOICEACTRESS100_005.wav"></audio></td>
-<td><audio controls src="audio/conversion/falsetto/2/GT_jvs021_falset10_VOICEACTRESS100_001.wav"></audio></td></tr>
-<tr><td><strong>Input (Modal)</strong></td>
-<td><audio controls src="audio/conversion/falsetto/1/ORI_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
-<td><audio controls src="audio/conversion/falsetto/2/ORI_jvs021_parallel100_VOICEACTRESS100_001_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td></tr>
-<tr><td><strong>COSY Baseline</strong></td>
-<td><audio controls src="audio/conversion/falsetto/1/COSYjvs021_parallel100_VOICEACTRESS100_005_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
-<td><audio controls src="audio/conversion/falsetto/2/COSY_jvs021_parallel100_VOICEACTRESS100_001_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td></tr>
-<tr><td><strong>FABYOL (ref2)</strong></td>
-<td><audio controls src="audio/conversion/falsetto/1/PRO2_jvs002_parallel100_VOICEACTRESS100_005_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
-<td><audio controls src="audio/conversion/falsetto/2/PRO2_jvs002_parallel100_VOICEACTRESS100_001_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td></tr>
-<tr><td><strong>Reference</strong></td>
-<td><audio controls src="audio/conversion/falsetto/1/ref_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
-<td><audio controls src="audio/conversion/falsetto/2/ref_jvs001_falset10_BASIC5000_1635.wav"></audio></td></tr>
-</tbody></table>
+  <thead>
+    <tr>
+      <th>Folder</th>
+      <th>COSY Baseline</th>
+      <th>FABYOL (w/ ref)</th>
+      <th>Ground Truth</th>
+      <th>Input (Modal)</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>falsetto/1</code></td>
+      <td><audio controls src="audio/conversion/falsetto/1/COSYjvs021_parallel100_VOICEACTRESS100_005_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/PRO2_jvs002_parallel100_VOICEACTRESS100_005_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/GT_jvs021_falset10_VOICEACTRESS100_005.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/ORI_jvs021_parallel100_VOICEACTRESS100_005_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/1/ref_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+    </tr>
+    <tr>
+      <td><code>falsetto/2</code></td>
+      <td><audio controls src="audio/conversion/falsetto/2/COSY_jvs021_parallel100_VOICEACTRESS100_001_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/PRO2_jvs002_parallel100_VOICEACTRESS100_001_to_falsetto_ref1_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/GT_jvs021_falset10_VOICEACTRESS100_001.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/ORI_jvs021_parallel100_VOICEACTRESS100_001_to_falsetto_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/ref_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
 
