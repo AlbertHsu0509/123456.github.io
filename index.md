@@ -13,6 +13,7 @@ Vocal timbral techniques—such as whisper, falsetto, and vocal fry/false cord s
   <img src="figure/FABYOL_model (1).png" alt="FABYOL Model Architecture">
   <figcaption>Figure 1: Overview of the FABYOL model architecture for timbral technique conversion.</figcaption>
 </figure>
+
 ## Timbral Technique Conversion
 
 To evaluate the performance of FABYOL and baseline models in the timbral technique conversion task, we randomly select samples from the test set featuring unseen singers as both reference and source. The source audio, in a modal voice, is conditioned on the reference audio to convert it to the target timbral technique.
