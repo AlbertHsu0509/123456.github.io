@@ -8,12 +8,12 @@
   display: none !important;
 }
 
-/* Widen the content area */
+/* Content area at 75% width */
 .page, .page .inner, .container, .content, main {
   width: 75% !important;
   max-width: 2000px !important;
   margin: 0 auto !important;
-  padding: 0 20px !important;
+  padding: 0 10px !important;
 }
 
 /* Table styles */
@@ -22,9 +22,9 @@ table {
   border-collapse: collapse;
 }
 th, td {
-  text-align: middle;
+  text-align: center;
   vertical-align: middle;
-  padding: 8px;
+  padding: 5px;
 }
 thead {
   background-color: #f2f2f2;
@@ -34,9 +34,24 @@ audio {
 }
 .model-comparisons td {
   width: 20%; /* Equal width for 5 columns */
+  min-width: 288px; /* Match cell width across tables */
 }
 .reference-files td {
-  width: 60%; /* Equal width for 2 columns */
+  width: 50%; /* Equal width for 2 columns */
+  min-width: 288px; /* Same cell width as Model Comparisons */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .page, .page .inner, .container, .content, main {
+    width: 95% !important;
+    padding: 0 5px !important;
+  }
+  .model-comparisons td, .reference-files td {
+    width: 100%;
+    min-width: 0; /* Allow full width on mobile */
+    display: block;
+  }
 }
 
 // /* Responsive adjustments */
