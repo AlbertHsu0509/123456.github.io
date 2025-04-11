@@ -190,12 +190,12 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/scream/1/source_jvs021_parallel100_VOICEACTRESS100_005.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/1/GT_jvs021_scream10_VOICEACTRESS100_005.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/1/COSYjvs021_parallel100_VOICEACTRESS100_005_to_scream_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/1/Free_jvs021_parallel100_VOICEACTRESS100_005_to_scream_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/1/ORI_jvs021_parallel100_VOICEACTRESS100_005_to_scream_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/1/FABYOL_jvs021_parallel100_VOICEACTRESS100_005_to_scream_ref1_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/1/Jun_clean_01.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/1/GT_Jun_scream_01.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/1/COSYJun_clean_01_to_scream_GeneraStudios_MetalScreams_110_AllTheThings_High.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/1/Jun_clean_01_to_scream_GeneraStudios_MetalScreams_110_AllTheThings_High.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/1/ORI_Jun_clean_01_to_scream_GeneraStudios_MetalScreams_110_AllTheThings_High.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/1/PRO_Jun_clean_01_to_scream_ref1_GeneraStudios_MetalScreams_110_AllTheThings_High.wav"></audio></td>
     </tr>
   </tbody>
 </table>
