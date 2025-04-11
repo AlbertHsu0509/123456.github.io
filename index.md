@@ -24,8 +24,6 @@ audio { width: 100%; }
 </style>
 
 <h2>🎵 Falsetto Conversion</h2>
-
-<h3>Reference Files</h3>
 <table class="reference-files">
   <thead>
     <tr>
@@ -38,14 +36,9 @@ audio { width: 100%; }
       <td><audio controls src="audio/conversion/falsetto/1/source_jvs021_parallel100_VOICEACTRESS100_005.wav"></audio></td>
       <td><audio controls src="audio/conversion/falsetto/1/ref_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
     </tr>
-    <tr>
-      <td><audio controls src="audio/conversion/falsetto/2/SOURCEjvs047_parallel100_VOICEACTRESS100_001.wav"></audio></td>
-      <td><audio controls src="audio/conversion/falsetto/2/ref_jvs001_falset10_BASIC5000_1635.wav"></audio></td>
-    </tr>
   </tbody>
 </table>
 
-<h3>Model Comparisons</h3>
 <table class="model-comparisons">
   <thead>
     <tr>
