@@ -237,7 +237,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
 </table>
 <h2>🎵 Modal Conversion</h2>
 
-<h3>Reference Files</h3>
+<h3</h3>
 <table class="reference-files">
   <thead>
     <tr>
@@ -246,10 +246,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/modal/1/ref_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
-    </tr>
-    <tr>
-      <td><audio controls src="audio/conversion/modal/2/ref_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/spksim/1/jvs019_parallel100_VOICEACTRESS100_099.wav"></audio></td>
     </tr>
   </tbody>
 </table>
@@ -268,13 +265,42 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/modal/1/source_jvs021_parallel100_VOICEACTRESS100_005.wav"></audio></td>
-      <td><audio controls src="audio/conversion/modal/1/GT_jvs021_modal10_VOICEACTRESS100_005.wav"></audio></td>
-      <td><audio controls src="audio/conversion/modal/1/COSYjvs021_parallel100_VOICEACTRESS100_005_to_modal_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/modal/1/Free_jvs021_parallel100_VOICEACTRESS100_005_to_modal_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/modal/1/ORI_jvs021_parallel100_VOICEACTRESS100_005_to_modal_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/modal/1/FABYOL_jvs021_parallel100_VOICEACTRESS100_005_to_modal_ref1_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/modal/2/SOURCEjvs047_parallel100_VOICEACTRESS100_001.wav"></audio></td>
+      <td><audio controls src="audio/conversion/modal/2/GT_jvs047_modal10_VOICEACTRESS100_001.wav"></audio></td>
+      <td><audio controls src="audio/conversion/modal/2/COSYjvs047_parallel100_VOICEACTRESS100_001_to_modal_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/modal/2/FREEjvs047_parallel100_VOICEACTRESS100_001_to_modal_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/modal/2/ORI_jvs047_parallel100_VOICEACTRESS100_001_to_modal_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/modal/2/FABYOL_jvs047_parallel100_VOICEACTRESS100_001_to_modal_ref1_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
     </tr>
+  </tbody>
+</table>
+<h3></h3>
+<table class="reference-files">
+  <thead>
+    <tr>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/modal/1/ref_jvs001_modal10_BASIC5000_1635.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>s</h3>
+<table class="model-comparisons">
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Ground Truth</th>
+      <th>CosyVoice</th>
+      <th>FreeVC</th>
+      <th>FACodec</th>
+      <th>FABYOL (Proposed)</th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td><audio controls src="audio/conversion/modal/2/SOURCEjvs047_parallel100_VOICEACTRESS100_001.wav"></audio></td>
       <td><audio controls src="audio/conversion/modal/2/GT_jvs047_modal10_VOICEACTRESS100_001.wav"></audio></td>
