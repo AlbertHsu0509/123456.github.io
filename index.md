@@ -208,10 +208,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/scream/1/ref_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
-    </tr>
-    <tr>
-      <td><audio controls src="audio/conversion/scream/2/ref_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/2/ref_GeneraStudios_MetalScreams_110_WeAreTheHate.wav"></audio></td>
     </tr>
   </tbody>
 </table>
@@ -229,12 +226,12 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/scream/2/SOURCEjvs047_parallel100_VOICEACTRESS100_001.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/2/GT_jvs047_scream10_VOICEACTRESS100_001.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/2/COSYjvs047_parallel100_VOICEACTRESS100_001_to_scream_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/2/FREEjvs047_parallel100_VOICEACTRESS100_001_to_scream_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/2/ORI_jvs047_parallel100_VOICEACTRESS100_001_to_scream_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/2/FABYOL_jvs047_parallel100_VOICEACTRESS100_001_to_scream_ref1_jvs001_scream10_BASIC5000_1635.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/2/Wayne_clean_01.wavaudio></td>
+      <td><audio controls src="audio/conversion/scream/2/GT_Wayne_scream_01.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/2/COSY_Wayne_clean_01_to_scream_GeneraStudios_MetalScreams_110_WeAreTheHate.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/2/FREEWayne_clean_01_to_scream_GeneraStudios_MetalScreams_110_AllTheThings_High.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/2/ORI_Wayne_clean_01_to_scream_GeneraStudios_MetalScreams_110_WeAreTheHate.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/2/PRO_Wayne_clean_01_to_scream_ref1_GeneraStudios_MetalScreams_110_WeAreTheHate.wav"></audio></td>
     </tr>
   </tbody>
 </table>
