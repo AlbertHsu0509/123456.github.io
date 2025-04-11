@@ -9,11 +9,11 @@
 }
 
 /* Widen the content area */
-.container, .page {
-  width: 150%;
-  max-width: 2000px;
-  margin: 0 auto;
-  padding: 0 15px;
+.page, .page .inner, .container, .content, main {
+  width: 100% !important;
+  max-width: 2000px !important;
+  margin: 0 auto !important;
+  padding: 0 20px !important;
 }
 
 /* Table styles */
@@ -32,4 +32,21 @@ thead {
 audio {
   width: 100%;
 }
+.model-comparisons td {
+  width: 20%; /* Equal width for 5 columns */
+}
+.reference-files td {
+  width: 50%; /* Equal width for 2 columns */
+}
 
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .page, .page .inner, .container, .content, main {
+    width: 95% !important;
+    padding: 0 10px !important;
+  }
+  .model-comparisons td, .reference-files td {
+    width: 100%;
+    display: block;
+  }
+}
