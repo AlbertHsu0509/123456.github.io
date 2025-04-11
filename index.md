@@ -26,7 +26,7 @@ audio { width: 100%; }
 <table>
   <thead>
     <tr>
-      <th>Reference Audioo</th>
+      <th>Reference</th>
     </tr>
   </thead>
   <tbody>
