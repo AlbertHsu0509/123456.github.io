@@ -86,7 +86,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
       <td><audio controls src="audio/conversion/falsetto/2/GT_jvs047_falset10_VOICEACTRESS100_001.wav"></audio></td>
       <td><audio controls src="audio/conversion/falsetto/2/COSY_jvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs019_falset10_VOICEACTRESS100_003.wav"></audio></td>
       <td><audio controls src="audio/conversion/falsetto/2/FREE_jvs047_parallel100_VOICEACTRESS100_002_to_falsetto_jvs019_falset10_VOICEACTRESS100_003.wav"></audio></td>
-      <td><audio controls src="audio/conversion/falsetto/2/ORI_jvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs019_falsetto10_VOICEACTRESS100_003.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/ORI_jvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs019_falset10_VOICEACTRESS100_003.wav"></audio></td>
       <td><audio controls src="audio/conversion/falsetto/2/FABYOL_jvs047_parallel100_VOICEACTRESS100_001_to_falsetto_ref2_jvs019_falset10_VOICEACTRESS100_003.wav"></audio></td>
     </tr>
   </tbody>
