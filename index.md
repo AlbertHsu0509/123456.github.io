@@ -66,7 +66,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
     <tr>
       <td><audio controls src="audio/conversion/falsetto/2/jvs019_falset10_VOICEACTRESS100_003.wav"></audio></td>
     </tr>
-  </thead>
+  </tbody>
 </table>
 <h3></h3>
 <table class="model-comparisons">
@@ -420,12 +420,12 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/scream/3/src_tony_clean_352.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/3/GT_tony_scream_352.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/3/cosy_tony_clean_352_to_scream_tony_scream_349.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/3/free_tony_clean_352_to_scream_tony_scream_349.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/3/facodec_tony_clean_352_to_scream_tony_scream_349.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/3/fabyol_tony_clean_352_to_scream.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/src_tony_clean_353.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/GT_tony_scream_353.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/cosy_tony_clean_353_to_scream_tony_scream_349.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/free_tony_clean_353_to_scream_tony_scream_349.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/facodec_tony_clean_353_to_scream_tony_scream_349.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/fabyol_tony_clean_353_to_scream.wav"></audio></td>
     </tr>
   </tbody>
 </table>
@@ -518,7 +518,7 @@ In the modal-to-modal conversion, we can better assess the model's ability to pr
     <tr>
       <td><audio controls src="audio/conversion/spksim/2/jvs001_parallel100_VOICEACTRESS100_091.wav"></audio></td>
     </tr>
-  </thead>
+  </tbody>
 </table>
 
 <h3></h3>
