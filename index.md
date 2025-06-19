@@ -138,7 +138,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/falsetto/4/ref_jvs015_falset10_VOICEACTRESS100_003.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/4/ref_jvs37_falset10_ONOMATOPEE300_158.wav"></audio></td>
     </tr>
   </thead>
 </table>
@@ -156,12 +156,12 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/falsetto/4/src_jvs052_parallel100_VOICEACTRESS100_001.wav"></audio></td>
-      <td><audio controls src="audio/conversion/falsetto/4/GT_jvs052_falset10_VOICEACTRESS100_001.wav"></audio></td>
-      <td><audio controls src="audio/conversion/falsetto/4/cosy_jvs052_parallel100_VOICEACTRESS100_001_to_falsetto_jvs015_falset10_VOICEACTRESS100_003.wav"></audio></td>
-      <td><audio controls src="audio/conversion/falsetto/4/free_jvs052_parallel100_VOICEACTRESS100_002_to_falsetto_jvs015_falset10_VOICEACTRESS100_003.wav"></audio></td>
-      <td><audio controls src="audio/conversion/falsetto/4/FACodec_jvs052_parallel100_VOICEACTRESS100_001_to_falsetto_jvs015_falset10_VOICEACTRESS100_003.wav"></audio></td>
-      <td><audio controls src="audio/conversion/falsetto/4/FABYOL_jvs052_parallel100_VOICEACTRESS100_001_to_falsetto_ref2_jvs015_falset10_VOICEACTRESS100_003.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/4/src_jvs009_parallel100_VOICEACTRESS100_003.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/4/GT_jvs009_falset10_VOICEACTRESS100_003.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/4/cosy_jvs009_parallel100_VOICEACTRESS100_003_to_falsetto_jvs37_falset10_ONOMATOPEE300_158.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/4/free_jvs009_parallel100_VOICEACTRESS100_003_to_falsetto_jvs37_falset10_ONOMATOPEE300_158.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/4/FACodec)jvs009_parallel100_VOICEACTRESS100_002_to_falsetto_jvs37_falset10_ONOMATOPEE300_158.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/4/FABYOL_jvs009_parallel100_VOICEACTRESS100_002_to_falsetto_ref1_jvs011_falset10_ONOMATOPEE300_038.wav"></audio></td>
     </tr>
   </tbody>
 </table>
@@ -251,7 +251,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/whisper/3/ref_jvs008_whisper10_TRAVEL1000_0391.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/3/ref_jvs011_whisper10_BASIC5000_0401.wav"></audio></td>
     </tr>
   </tbody>
 </table>
@@ -270,12 +270,12 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/whisper/3/src_jvs028_parallel100_VOICEACTRESS100_002.wav"></audio></td>
-      <td><audio controls src="audio/conversion/whisper/3/GT_jvs028_whisper10_VOICEACTRESS100_002.wav"></audio></td>
-      <td><audio controls src="audio/conversion/whisper/3/cosy_jvs028_parallel100_VOICEACTRESS100_002_to_whisper_jvs008_whisper10_TRAVEL1000_0391.wav"></audio></td>
-      <td><audio controls src="audio/conversion/whisper/3/free_jvs028_parallel100_VOICEACTRESS100_001_to_whisper_jvs008_whisper10_TRAVEL1000_0391.wav"></audio></td>
-      <td><audio controls src="audio/conversion/whisper/3/FACodec_jvs028_parallel100_VOICEACTRESS100_002_to_whisper_jvs008_whisper10_TRAVEL1000_0391.wav"></audio></td>
-      <td><audio controls src="audio/conversion/whisper/3/FABYOL_jvs028_parallel100_VOICEACTRESS100_002_to_whisper_ref2_jvs008_whisper10_TRAVEL1000_0391.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/3/src_jvs002_parallel100_VOICEACTRESS100_001.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/3/GT_jvs002_whisper10_VOICEACTRESS100_001.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/3/cosy_jvs002_parallel100_VOICEACTRESS100_001_to_whisper_jvs011_whisper10_BASIC5000_0401.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/3/free_jvs002_parallel100_VOICEACTRESS100_001_to_whisper_jvs011_whisper10_BASIC5000_0401.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/3/facodec_jvs002_parallel100_VOICEACTRESS100_001_to_whisper_jvs011_whisper10_BASIC5000_0401.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/3/fabyoljvs002_parallel100_VOICEACTRESS100_001_to_whisper_ref1_jvs011_whisper10_BASIC5000_0401.wav"></audio></td>
     </tr>
   </tbody>
 </table>
@@ -289,10 +289,11 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/whisper/4/ref_jvs013_whisper10_BASIC5000_1140.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/4/ref_jvs37_whisper10_TRAVEL1000_0431.wav"></audio></td>
     </tr>
   </tbody>
 </table>
+
 <h3></h3>
 <table class="model-comparisons">
   <thead>
@@ -307,12 +308,12 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/whisper/4/src_jvs031_parallel100_VOICEACTRESS100_003.wav"></audio></td>
-      <td><audio controls src="audio/conversion/whisper/4/GT_jvs031_whisper10_VOICEACTRESS100_003.wav"></audio></td>
-      <td><audio controls src="audio/conversion/whisper/4/cosy_jvs031_parallel100_VOICEACTRESS100_003_to_whisper_jvs013_whisper10_BASIC5000_1140.wav"></audio></td>
-      <td><audio controls src="audio/conversion/whisper/4/free_jvs031_parallel100_VOICEACTRESS100_003_to_whisper_jvs013_whisper10_BASIC5000_1140.wav"></audio></td>
-      <td><audio controls src="audio/conversion/whisper/4/FACodec_jvs031_parallel100_VOICEACTRESS100_003_to_whisper_jvs013_whisper10_BASIC5000_1140.wav"></audio></td>
-      <td><audio controls src="audio/conversion/whisper/4/FABYOL_jvs031_parallel100_VOICEACTRESS100_003_to_whisper_ref1_jvs013_whisper10_BASIC5000_1140.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/4/src_jvs004_parallel100_VOICEACTRESS100_002.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/4/GT_jvs004_whisper10_VOICEACTRESS100_002.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/4/cosy_jvs004_parallel100_VOICEACTRESS100_002_to_whisper_jvs37_whisper10_TRAVEL1000_0431.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/4/free_jvs004_parallel100_VOICEACTRESS100_002_to_whisper_jvs37_whisper10_TRAVEL1000_0431.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/4/facodec_jvs004_parallel100_VOICEACTRESS100_002_to_whisper_jvs37_whisper10_TRAVEL1000_0431.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/4/fabyol_jvs004_parallel100_VOICEACTRESS100_002_to_whisper_ref2_jvs37_whisper10_TRAVEL1000_0431.wav"></audio></td>
     </tr>
   </tbody>
 </table>
@@ -401,7 +402,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/scream/3/ref_GeneraStudios_MetalScreams_110_AnotherExample.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/ref_tony_scream_349.wav"></audio></td>
     </tr>
   </tbody>
 </table>
@@ -419,12 +420,12 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/scream/3/src_Tom_clean_01.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/3/GT_Tom_scream_01.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/3/cosy_Tom_clean_01_to_scream_GeneraStudios_MetalScreams_110_AnotherExample.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/3/free_Tom_clean_01_to_scream_GeneraStudios_MetalScreams_110_AnotherExample.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/3/FACodec_Tom_clean_01_to_scream_GeneraStudios_MetalScreams_110_AnotherExample.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/3/FABYOL_Tom_clean_01_to_scream_ref1_GeneraStudios_MetalScreams_110_AnotherExample.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/src_tony_clean_353.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/GT_tony_scream_353.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/cosy_tony_clean_353_to_scream_tony_scream_349.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/free_tony_clean_353_to_scream_tony_scream_349.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/facodec_tony_clean_353_to_scream_tony_scream_349.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/fabyol_tony_clean_353_to_scream.wav"></audio></td>
     </tr>
   </tbody>
 </table>
