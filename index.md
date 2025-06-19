@@ -439,7 +439,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/scream/4/ref_GeneraStudios_MetalScreams_110_YetAnother.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/4/ref_tony_scream_349.wav"></audio></td>
     </tr>
   </tbody>
 </table>
@@ -457,12 +457,12 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/scream/4/src_Jerry_clean_01.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/4/GT_Jerry_scream_01.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/4/cosy_Jerry_clean_01_to_scream_GeneraStudios_MetalScreams_110_YetAnother.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/4/free_Jerry_clean_01_to_scream_GeneraStudios_MetalScreams_110_YetAnother.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/4/FACodec_Jerry_clean_01_to_scream_GeneraStudios_MetalScreams_110_YetAnother.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/4/FABYOL_Jerry_clean_01_to_scream_ref1_GeneraStudios_MetalScreams_110_YetAnother.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/4/src_tony_clean_353.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/4/GT_tony_scream_353.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/4/cosy_tony_clean_353_to_scream_tony_scream_349.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/4/free_tony_clean_353_to_scream_tony_scream_349.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/4/facodec_tony_clean_353_to_scream_tony_scream_349.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/4/fabyol_tony_clean_353_to_scream.wav"></audio></td>
     </tr>
   </tbody>
 </table>
