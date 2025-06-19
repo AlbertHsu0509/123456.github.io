@@ -3,7 +3,6 @@ layout: default
 title: "Conditional Vocal Timbral Technique Conversion via Embedding-Guided Attribute Modulation"
 ---
 
-<!-- Link to custom CSS to hide GitHub button and footer -->
 <link rel="stylesheet" href="/assets/css/style.css">
 
 <h1>Abstract</h1>
@@ -19,7 +18,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
 
 <h2>🎵 Falsetto Conversion</h2>
 
-<h3></h3>
+<h3>Unseen Speakers</h3>
 <table class="reference-files">
   <thead>
     <tr>
@@ -67,7 +66,7 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
     <tr>
       <td><audio controls src="audio/conversion/falsetto/2/jvs019_falset10_VOICEACTRESS100_003.wav"></audio></td>
     </tr>
-  </tbody>
+  </thead>
 </table>
 <h3></h3>
 <table class="model-comparisons">
@@ -87,14 +86,88 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
       <td><audio controls src="audio/conversion/falsetto/2/GT_jvs047_falset10_VOICEACTRESS100_001.wav"></audio></td>
       <td><audio controls src="audio/conversion/falsetto/2/COSY_jvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs019_falset10_VOICEACTRESS100_003.wav"></audio></td>
       <td><audio controls src="audio/conversion/falsetto/2/FREE_jvs047_parallel100_VOICEACTRESS100_002_to_falsetto_jvs019_falset10_VOICEACTRESS100_003.wav"></audio></td>
-      <td><audio controls src="audio/conversion/falsetto/2/ORI_jvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs019_falset10_VOICEACTRESS100_003.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/2/ORI_jvs047_parallel100_VOICEACTRESS100_001_to_falsetto_jvs019_falsetto10_VOICEACTRESS100_003.wav"></audio></td>
       <td><audio controls src="audio/conversion/falsetto/2/FABYOL_jvs047_parallel100_VOICEACTRESS100_001_to_falsetto_ref2_jvs019_falset10_VOICEACTRESS100_003.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+<h3>Seen Speakers</h3>
+<table class="reference-files">
+  <thead>
+    <tr>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/falsetto/3/ref_jvs011_falset10_ONOMATOPEE300_038.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+<h3></h3>
+<table class="model-comparisons">
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Ground Truth</th>
+      <th>CosyVoice</th>
+      <th>FreeVC</th>
+      <th>FACodec</th>
+      <th>FABYOL (Proposed)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/falsetto/3/src_jvs002_parallel100_VOICEACTRESS100_001.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/3/GT_jvs002_falset10_VOICEACTRESS100_001.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/3/cosy_jvs002_parallel100_VOICEACTRESS100_001_to_falsetto_jvs011_falset10_ONOMATOPEE300_038.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/3/free_jvs002_parallel100_VOICEACTRESS100_001_to_falsetto_jvs011_falset10_ONOMATOPEE300_038.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/3/FACodec_jvs002_parallel100_VOICEACTRESS100_001_to_falsetto_jvs011_falset10_ONOMATOPEE300_038.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/3/FABYOL_jvs002_parallel100_VOICEACTRESS100_001_to_falsetto_ref1_jvs011_falset10_ONOMATOPEE300_038.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+<h3></h3>
+<table class="reference-files">
+  <thead>
+    <tr>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/falsetto/4/ref_jvs015_falset10_VOICEACTRESS100_003.wav"></audio></td>
+    </tr>
+  </thead>
+</table>
+<h3></h3>
+<table class="model-comparisons">
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Ground Truth</th>
+      <th>CosyVoice</th>
+      <th>FreeVC</th>
+      <th>FACodec</th>
+      <th>FABYOL (Proposed)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/falsetto/4/src_jvs052_parallel100_VOICEACTRESS100_001.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/4/GT_jvs052_falset10_VOICEACTRESS100_001.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/4/cosy_jvs052_parallel100_VOICEACTRESS100_001_to_falsetto_jvs015_falset10_VOICEACTRESS100_003.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/4/free_jvs052_parallel100_VOICEACTRESS100_002_to_falsetto_jvs015_falset10_VOICEACTRESS100_003.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/4/FACodec_jvs052_parallel100_VOICEACTRESS100_001_to_falsetto_jvs015_falset10_VOICEACTRESS100_003.wav"></audio></td>
+      <td><audio controls src="audio/conversion/falsetto/4/FABYOL_jvs052_parallel100_VOICEACTRESS100_001_to_falsetto_ref2_jvs015_falset10_VOICEACTRESS100_003.wav"></audio></td>
     </tr>
   </tbody>
 </table>
 
 <h2>🎵 Whisper Conversion</h2>
-<h3></h3>
+<h3>Unseen Speakers</h3>
 <table class="reference-files">
   <thead>
     <tr>
@@ -168,9 +241,84 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
     </tr>
   </tbody>
 </table>
+<hr>
+<h3>Seen Speakers</h3>
+<table class="reference-files">
+  <thead>
+    <tr>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/whisper/3/ref_jvs008_whisper10_TRAVEL1000_0391.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3></h3>
+<table class="model-comparisons">
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Ground Truth</th>
+      <th>CosyVoice</th>
+      <th>FreeVC</th>
+      <th>FACodec</th>
+      <th>FABYOL (Proposed)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/whisper/3/src_jvs028_parallel100_VOICEACTRESS100_002.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/3/GT_jvs028_whisper10_VOICEACTRESS100_002.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/3/cosy_jvs028_parallel100_VOICEACTRESS100_002_to_whisper_jvs008_whisper10_TRAVEL1000_0391.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/3/free_jvs028_parallel100_VOICEACTRESS100_001_to_whisper_jvs008_whisper10_TRAVEL1000_0391.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/3/FACodec_jvs028_parallel100_VOICEACTRESS100_002_to_whisper_jvs008_whisper10_TRAVEL1000_0391.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/3/FABYOL_jvs028_parallel100_VOICEACTRESS100_002_to_whisper_ref2_jvs008_whisper10_TRAVEL1000_0391.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+<h3></h3>
+<table class="reference-files">
+  <thead>
+    <tr>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/whisper/4/ref_jvs013_whisper10_BASIC5000_1140.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+<h3></h3>
+<table class="model-comparisons">
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Ground Truth</th>
+      <th>CosyVoice</th>
+      <th>FreeVC</th>
+      <th>FACodec</th>
+      <th>FABYOL (Proposed)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/whisper/4/src_jvs031_parallel100_VOICEACTRESS100_003.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/4/GT_jvs031_whisper10_VOICEACTRESS100_003.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/4/cosy_jvs031_parallel100_VOICEACTRESS100_003_to_whisper_jvs013_whisper10_BASIC5000_1140.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/4/free_jvs031_parallel100_VOICEACTRESS100_003_to_whisper_jvs013_whisper10_BASIC5000_1140.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/4/FACodec_jvs031_parallel100_VOICEACTRESS100_003_to_whisper_jvs013_whisper10_BASIC5000_1140.wav"></audio></td>
+      <td><audio controls src="audio/conversion/whisper/4/FABYOL_jvs031_parallel100_VOICEACTRESS100_003_to_whisper_ref1_jvs013_whisper10_BASIC5000_1140.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
 
 <h2>🎵 Scream Conversion</h2>
-<h3></h3>
+<h3>Unseen Speakers</h3>
 <table class="reference-files">
   <thead>
     <tr>
@@ -243,6 +391,80 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
     </tr>
   </tbody>
 </table>
+<hr>
+<h3>Seen Speakers</h3>
+<table class="reference-files">
+  <thead>
+    <tr>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/scream/3/ref_GeneraStudios_MetalScreams_110_AnotherExample.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+<h3></h3>
+<table class="model-comparisons">
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Ground Truth</th>
+      <th>CosyVoice</th>
+      <th>FreeVC</th>
+      <th>FACodec</th>
+      <th>FABYOL (Proposed)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/scream/3/src_Tom_clean_01.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/GT_Tom_scream_01.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/cosy_Tom_clean_01_to_scream_GeneraStudios_MetalScreams_110_AnotherExample.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/free_Tom_clean_01_to_scream_GeneraStudios_MetalScreams_110_AnotherExample.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/FACodec_Tom_clean_01_to_scream_GeneraStudios_MetalScreams_110_AnotherExample.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/FABYOL_Tom_clean_01_to_scream_ref1_GeneraStudios_MetalScreams_110_AnotherExample.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+<h3></h3>
+<hr>
+<table class="reference-files">
+  <thead>
+    <tr>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/scream/4/ref_GeneraStudios_MetalScreams_110_YetAnother.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+<h3></h3>
+<table class="model-comparisons">
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Ground Truth</th>
+      <th>CosyVoice</th>
+      <th>FreeVC</th>
+      <th>FACodec</th>
+      <th>FABYOL (Proposed)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls src="audio/conversion/scream/4/src_Jerry_clean_01.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/4/GT_Jerry_scream_01.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/4/cosy_Jerry_clean_01_to_scream_GeneraStudios_MetalScreams_110_YetAnother.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/4/free_Jerry_clean_01_to_scream_GeneraStudios_MetalScreams_110_YetAnother.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/4/FACodec_Jerry_clean_01_to_scream_GeneraStudios_MetalScreams_110_YetAnother.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/4/FABYOL_Jerry_clean_01_to_scream_ref1_GeneraStudios_MetalScreams_110_YetAnother.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
 
 <h2>🎵 Modal Conversion</h2>
 In the modal-to-modal conversion, we can better assess the model's ability to preserve the source speaker's identity.
@@ -295,7 +517,7 @@ In the modal-to-modal conversion, we can better assess the model's ability to pr
     <tr>
       <td><audio controls src="audio/conversion/spksim/2/jvs001_parallel100_VOICEACTRESS100_091.wav"></audio></td>
     </tr>
-  </tbody>
+  </thead>
 </table>
 
 <h3></h3>
