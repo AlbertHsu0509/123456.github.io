@@ -420,12 +420,12 @@ To evaluate the performance of FABYOL and baseline models in the timbral techniq
   </thead>
   <tbody>
     <tr>
-      <td><audio controls src="audio/conversion/scream/3/src_tony_clean_353.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/3/GT_tony_scream_353.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/3/cosy_tony_clean_353_to_scream_tony_scream_349.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/3/free_tony_clean_353_to_scream_tony_scream_349.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/3/facodec_tony_clean_353_to_scream_tony_scream_349.wav"></audio></td>
-      <td><audio controls src="audio/conversion/scream/3/fabyol_tony_clean_353_to_scream.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/src_tony_clean_352.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/GT_tony_scream_352.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/cosy_tony_clean_352_to_scream_tony_scream_349.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/free_tony_clean_352_to_scream_tony_scream_349.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/facodec_tony_clean_352_to_scream_tony_scream_349.wav"></audio></td>
+      <td><audio controls src="audio/conversion/scream/3/fabyol_tony_clean_352_to_scream.wav"></audio></td>
     </tr>
   </tbody>
 </table>
